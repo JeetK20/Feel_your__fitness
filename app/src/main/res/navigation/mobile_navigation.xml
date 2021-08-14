@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jeet.gymapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="com.jeet.gymapp.ui.bmi.BMIFragment"
+        android:label="@string/menu_bmi"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/nav_diet"
+        android:name="com.jeet.gymapp.ui.diet.DietFragment"
+        android:label="@string/menu_diet"
+        tools:layout="@layout/fragment_diet" />
+
+    <fragment
+        android:id="@+id/nav_calorie"
+        android:name="com.jeet.gymapp.ui.calories.CaloriesFragment"
+        android:label="@string/menu_calorie"
+        tools:layout="@layout/fragment_calories" />
+
+    <fragment
+        android:id="@+id/nav_workout"
+        android:name="com.jeet.gymapp.ui.workout.WorkoutFragment"
+        android:label="@string/menu_workout"
+        tools:layout="@layout/fragment_workout"/>
+
+    <fragment
+        android:id="@+id/nav_meals"
+        android:name="com.jeet.gymapp.ui.meals.MealsFragment"
+        android:label="@string/menu_meals"
+        tools:layout="@layout/fragment_meals" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.jeet.gymapp.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.jeet.gymapp.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+</navigation>

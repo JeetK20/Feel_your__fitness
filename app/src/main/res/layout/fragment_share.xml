@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:id="@+id/txtshare"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="80dp"
+      android:text="Fill Your Fitness"
+      android:textSize="36dp" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="wrap_content"
+      android:layout_height="206dp"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/txtshare"
+      app:srcCompat="@drawable/google_play_logo" />
+
+  <TextView
+    android:id="@+id/txtlink"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/imageView4"
+    android:text="Share the link to download the app:"
+    android:textSize="20dp"
+    android:layout_marginBottom="20dp"
+    />
+
+  <Button
+      android:id="@+id/bshare"
+      android:layout_width="wrap_content"
+      android:layout_height="60dp"
+      android:text="Share"
+      android:ems="11"
+      android:background="@color/colorPrimary"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/txtlink"
+      />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fill your Fitness</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Fill your Fitness</string>
+    <string name="nav_header_email">user@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">LogOut</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_bmi">BMI</string>
+    <string name="menu_diet">Diet</string>
+    <string name="menu_calorie">Calorie Counter</string>
+    <string name="menu_workout">Workout</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_meals">Meal &amp; Trainer</string>
+
+
+    <string name="forgot"><u>Forgot password?</u></string>
+
+</resources>
